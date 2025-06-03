@@ -43,7 +43,7 @@ def test_twitch():
     # Searches for 'StarCraft II'
     search(driver, SEARCH_TERM)
 
-    # Selects by partial text
+    # Selects by partial text 'StarCraft II'
     click_partial_text(driver, SEARCH_TERM)
 
     # Scroll down twice
@@ -53,5 +53,5 @@ def test_twitch():
     # Selects a channel
     click_xpath(driver, CHANNEL)
 
-    # Captures screenshot - sporty/twitch/screenshots
+    # Captures screenshot - twitch/screenshots
     capture_screenshot(driver)
