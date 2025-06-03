@@ -90,6 +90,8 @@ This issue requires further investigation, but the `scroll()` function is still 
 
 The Dog API tests utilise the [requests](https://requests.readthedocs.io/en/latest/) library for Python to interact with the Dog API.
 
+Explore the [Dog API](https://dog.ceo/dog-api/) that's being tested.
+
 ### ▶ Running API Tests
 
 To run the API tests, use the following command:
