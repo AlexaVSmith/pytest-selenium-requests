@@ -21,9 +21,8 @@ Ensure you have the following installed:
 
 ### 🌐 Web Drivers for UI Tests
 
-For the UI tests, you will need the appropriate browser drivers:
+For the UI tests, you will need the appropriate browser driver:
 
-- [Firefox Geckodriver](https://github.com/mozilla/geckodriver/releases)
 - [Chrome Webdriver](https://googlechromelabs.github.io/chrome-for-testing/)
 
 ---
@@ -47,6 +46,10 @@ To run the UI tests, use the following command:
 ```bash
 poetry run pytest twitch/tests/test_twitch.py
 ```
+
+Here's a GIF showing the test run:
+
+![Twitch UI Tests](twitch/gif/twitch_recording.gif)
 
 ### Available Helper Functions
 
@@ -107,7 +110,7 @@ poetry run pytest dog_api/tests/test_dog_facts.py
 | test_message     | data values | correct data is present |
 
 
-### 🛠 Future improvements
+### 🔮 Future improvements
 
 - Increase coverage for negative test paths, ensuring bad requests (e.g., invalid inputs, missing data, unauthorized requests) are handled correctly.
 - Validate that appropriate HTTP status codes (400, 401, 404, etc.) and error messages are returned for invalid or incomplete requests.
