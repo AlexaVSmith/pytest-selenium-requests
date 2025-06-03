@@ -102,12 +102,12 @@ poetry run pytest dog_api/tests/test_dog_facts.py
 
 | Test Name        | Validation  | Reason                   |
 |------------------|-------------|--------------------------|
-| test_status_code | status 200  | API is available         |
-| test_status      | success     |                          |
-| test_header      | data type   | in a usable format       |
+| test_status_code | status 200  | everything is OK         |
+| test_status      | success     | response is successful   |
+| test_header      | data type   | is in a usable format    |
 |                  | data length | data is present          |     
 |                  | encoding    | data security            |
-| test_message     | data values | correct data is present |
+| test_message     | data values | correct data is present  |
 
 
 ### 🔮 Future improvements
