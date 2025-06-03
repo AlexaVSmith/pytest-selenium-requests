@@ -3,8 +3,8 @@
 This project contains UI and API tests using Python's [pytest](https://docs.pytest.org/en/stable/) framework. 
 
 The tests demonstrate these two primary features: 
-- Twitch UI with [pytest-selenium](https://pytest-selenium.readthedocs.io/)
-- Dog API with the [requests](https://requests.readthedocs.io/en/latest/) library
+- [Twitch](https://www.twitch.tv/) UI with [pytest-selenium](https://pytest-selenium.readthedocs.io/)
+- [Dog API](https://dog.ceo/dog-api/) with the [requests](https://requests.readthedocs.io/en/latest/) library
 
 ---
 
